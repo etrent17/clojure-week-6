@@ -1,6 +1,3 @@
-(ns story-game
-  (:gen-class))
-
 (defn prompt [message]
   (println message)
   (read-line))
